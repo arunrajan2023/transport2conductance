@@ -12,7 +12,7 @@ current-and-conductance.in
 
 # Input files
 
-All files with *.t extension
+All transmission files (i.e., with *.t extension)
 
 # Main output (2D differential conductance spectrum)
 

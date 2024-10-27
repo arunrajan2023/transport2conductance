@@ -14,4 +14,10 @@ current-and-conductance.in
 
 All files with *.t extension
 
+# Main output (2D differential conductance spectrum)
+
+Data file: 2d-diff-g.dat
+
+Image file: 2d-diff-g.jpg
+
 

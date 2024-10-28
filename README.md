@@ -33,7 +33,7 @@ Data file: `2d-diff-g.dat`
 Image file: `2d-diff-g.jpg`
 
 ## More information
-The 2D differential conductance spectra calculated using this code can be found in our paper: https://pubs.acs.org/doi/full/10.1021/nn4062148 (A. C. Rajan et al. ACS nano 2014).
+The 2D differential conductance spectra calculated using this code can be found in our paper: [A. C. Rajan et al. ACS nano 2014](https://pubs.acs.org/doi/full/10.1021/nn4062148).
 
 ## License
 &copy; Arun Rajan

@@ -11,8 +11,6 @@ $I(E_F,V_b)=\frac{2e}{h}\int \tau (E, V_b) [f(E,μ_s) – f(E,μ_d)] dE$
 
 where $\tau = Tr[\Gamma_L G \Gamma_R G^{\dagger}]$ represents the transmission. $μ_{s/d} = E_F ± V_b/2$. $E_F$ changes when the gate voltage $V_g$ is applied. The $V_g$ is applied using a virtual sweeping of $[f(E,μ_s) – f(E,μ_d)]$ to the given energy point.
 
-The 2D differential conductance plots can be found, as described in our paper: https://pubs.acs.org/doi/full/10.1021/nn4062148 (A. C. Rajan et al. ACS nano 2014).
-
 ## Prerequisites
 Before using this package, ensure the following software/files is installed/available:
 - **Python**
@@ -33,6 +31,9 @@ Once the postprocessing is complete, you would obtain the 2D differential conduc
 Data file: `2d-diff-g.dat`
 
 Image file: `2d-diff-g.jpg`
+
+## More information
+The 2D differential conductance plots can be found, as described in our paper: https://pubs.acs.org/doi/full/10.1021/nn4062148 (A. C. Rajan et al. ACS nano 2014).
 
 ## License
 &copy; Arun Rajan

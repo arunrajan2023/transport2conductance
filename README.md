@@ -7,9 +7,9 @@ Transport calculations are based on density functional theory (DFT) with single-
 
 The Landauer-Büttiker formalism is utilized to calculate the current:
 
-$I(E_F,V_b)=\frac{2e}{h}$ 
+$I(E_F,V_b)=\frac{2e}{h}\int \tau (E, V_b) [f(E,μ_s) – f(E,μ_d)] dE$ 
 
-where $μ_{s/d} = E_F ± V_b/2$. $E_F$ changes when the gate voltage $V_g$ is applied. The $V_g$ is applied using a virtual sweeping of $[f(E,μ_s) – f(E,μ_d)]$ to the given energy point.
+where $\tau = Tr[\Gamma_L G \Gamma_R G^{\dagger}]$ represents the transmission. $μ_{s/d} = E_F ± V_b/2$. $E_F$ changes when the gate voltage $V_g$ is applied. The $V_g$ is applied using a virtual sweeping of $[f(E,μ_s) – f(E,μ_d)]$ to the given energy point.
 
 Given DFT + NEGF produced quantum electron transmission curves of armchair graphene nanoribbon at varying bias voltages (say from -1 V to +1 V), the 2D differential conductance plots can be found, as described in our paper: https://pubs.acs.org/doi/full/10.1021/nn4062148 (A. C. Rajan et al. ACS nano 2014).
 

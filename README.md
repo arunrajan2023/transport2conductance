@@ -3,7 +3,7 @@
 ## Overview
 This repository contains Fortran code designed to accept DFT + NEGF-produced quantum electron transmission curves of a material (such as armchair graphene nanoribbon) at varying bias voltages (say, from -1 V to +1 V). It finds the current per the Landauer-Buttikker formalism and makes the 2D differential conductance spectrum. The two dimensions are the bias and gate voltages.
 
-Transport calculations are based on density functional theory (DFT) with single-particle Green’s function method (DFT-NEGF) as implemented in the PosTrans plugin on the SIesta package.
+Transport calculations are based on density functional theory (DFT) with single-particle Green’s function method (DFT-NEGF) as implemented in the `PosTrans` plugin on the `SIESTA` package.
 
 The Landauer-Büttiker formalism is utilized to calculate the current:
 

@@ -11,24 +11,28 @@ $I(E_F,V_b)=\frac{2e}{h}\int \tau (E, V_b) [f(E,μ_s) – f(E,μ_d)] dE$
 
 where $\tau = Tr[\Gamma_L G \Gamma_R G^{\dagger}]$ represents the transmission. $μ_{s/d} = E_F ± V_b/2$. $E_F$ changes when the gate voltage $V_g$ is applied. The $V_g$ is applied using a virtual sweeping of $[f(E,μ_s) – f(E,μ_d)]$ to the given energy point.
 
-Given DFT + NEGF produced quantum electron transmission curves of armchair graphene nanoribbon at varying bias voltages (say from -1 V to +1 V), the 2D differential conductance plots can be found, as described in our paper: https://pubs.acs.org/doi/full/10.1021/nn4062148 (A. C. Rajan et al. ACS nano 2014).
+The 2D differential conductance plots can be found, as described in our paper: https://pubs.acs.org/doi/full/10.1021/nn4062148 (A. C. Rajan et al. ACS nano 2014).
 
-# Main code (Written in Fortran 90)
+## Prerequisites
+Before using this package, ensure the following software/files is installed/available:
+- **Python**
+- **Fortran 90** compiler: ifort or gfortran
 
-current-and-conductance_highprecision.f90
+## How to run the script?
+- Ensure that the parameter file `current-and-conductance.in` is correct.
+- Keep all transmission files at regular intervals of $V_b$, as per the parameter file.
 
-# Parameter file:
+You can simply run:
 
-current-and-conductance.in
+```bash
+ifort current-and-conductance_highprecision.f90
+```
 
-# Input files
+Once the postprocessing is complete, you would obtain the 2D differential conductance spectrum.
 
-All transmission files (i.e., with *.t extension)
+Data file: `2d-diff-g.dat`
 
-# Main output (2D differential conductance spectrum)
+Image file: `2d-diff-g.jpg`
 
-Data file: 2d-diff-g.dat
-
-Image file: 2d-diff-g.jpg
-
-
+## License
+&copy; Arun Rajan

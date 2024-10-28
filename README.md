@@ -16,11 +16,11 @@ The 2D differential conductance plots can be found, as described in our paper: h
 ## Prerequisites
 Before using this package, ensure the following software/files is installed/available:
 - **Python**
-- **Fortran 90** compiler: ifort or gfortran
+- **Fortran 90** compiler: `ifort` or `gfortran`
 
 ## How to run the script?
 - Ensure that the parameter file `current-and-conductance.in` is correct.
-- Keep all transmission files at regular intervals of $V_b$, as per the parameter file.
+- Keep all transmission files at regular intervals of $V_b$, as per the parameter file (see T(in)).
 
 You can simply run:
 

@@ -26,7 +26,7 @@ You can simply run:
 ifort current-and-conductance_highprecision.f90
 ```
 
-Once the postprocessing is complete, you would obtain the 2D differential conductance spectrum.
+Once the postprocessing is complete, the Python scripts will automatically render the 2D differential conductance spectrum.
 
 Data file: `2d-diff-g.dat`
 
